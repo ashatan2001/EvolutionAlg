@@ -1,3 +1,4 @@
+% Генерация матрицы W
 function [W] = GenW(M,N,K)
     for i = 1:N
         for j = 1:M

@@ -1,3 +1,4 @@
+% Генерация векторов s, c и симметричной матрицы B
 function [s,B,c] = Generation(M)
 s = randi([0,1],1,M);
 c = randi([0,1],1,M);

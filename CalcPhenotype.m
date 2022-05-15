@@ -1,3 +1,4 @@
+% Вычисление признаков фенотипа 
 function [f] = CalcPhenotype(M,N,s,W,h)
     for j = 1:M
         f(j) = 0;

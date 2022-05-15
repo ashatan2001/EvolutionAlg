@@ -1,3 +1,4 @@
+% Мутация гена
 function [snew] = Mutate(M,s,pmut)
     for i = 1:M
 			    r = rand;

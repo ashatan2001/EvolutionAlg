@@ -19,7 +19,7 @@ function EvolutionAlg(M, N, K, h, pmut, Tstop)
     f_snew = CalcPhenotype(M,N,snew,Wmat,h);
     %вычисление потенциала фитнеса W(s) и W(snew)
     W_s = CalcFitPot(M,c,f_s,B);
-    W_snew = CalcFitPot(M,c,f_snew,B)
+    W_snew = CalcFitPot(M,c,f_snew,B);
     % WWCM
     if(W_snew > W_s)
       s = snew;
